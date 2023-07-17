@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="shiftTT_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.58974468"
+     inkscape:cx="222.97785"
+     inkscape:cy="261.97778"
+     inkscape:window-width="1669"
+     inkscape:window-height="961"
+     inkscape:window-x="121"
+     inkscape:window-y="61"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="true"
+     inkscape:snap-text-baseline="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8369">
+      <stop
+         style="stop-color:#3b58a1;stop-opacity:1;"
+         offset="0"
+         id="stop8365" />
+      <stop
+         style="stop-color:#3b58a1;stop-opacity:0;"
+         offset="1"
+         id="stop8367" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8075">
+      <stop
+         style="stop-color:#f04646;stop-opacity:1;"
+         offset="0"
+         id="stop8071" />
+      <stop
+         style="stop-color:#f04646;stop-opacity:0;"
+         offset="1"
+         id="stop8073" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7923">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1;"
+         offset="0"
+         id="stop7919" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:0;"
+         offset="1"
+         id="stop7921" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7392">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1;"
+         offset="0"
+         id="stop7388" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:0;"
+         offset="1"
+         id="stop7390" />
+    </linearGradient>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2644" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path23248" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7392"
+       id="linearGradient7394"
+       x1="240.71368"
+       y1="62.561962"
+       x2="251.92468"
+       y2="62.558586"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7392"
+       id="linearGradient7818"
+       x1="242.5269"
+       y1="65.791992"
+       x2="249.42029"
+       y2="65.784477"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7923"
+       id="linearGradient7925"
+       x1="240.71369"
+       y1="69.022015"
+       x2="246.97466"
+       y2="69.022018"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8075"
+       id="linearGradient8077"
+       x1="215.63542"
+       y1="70.214608"
+       x2="235.47917"
+       y2="70.114586"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,1,269.875,-31.750008)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8369"
+       id="linearGradient8371"
+       x1="226.21875"
+       y1="75.40625"
+       x2="210.34375"
+       y2="75.40625"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,1,269.875,-31.750008)" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path23248-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path23248-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path23248-2-9" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#969cab;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-6-1-6-2-7-3"
+       height="13.229169"
+       x="42.333332"
+       y="34.395828"
+       width="13.229172"
+       ry="1.3229141"
+       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <path
+       style="fill:url(#linearGradient8077);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 42.333323,37.141683 h 3.96875 l -1.32291,-2.645833 9.26042,3.96875 -9.26042,3.96875 1.32292,-2.645833 h -3.96875 l -1e-5,-2.645834"
+       id="path1057-6"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001" />
+    <path
+       style="fill:url(#linearGradient8371);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 55.562513,42.233683 h -3.96875 l 1.32291,-2.645833 -9.26042,3.96875 9.26042,3.96875 -1.32292,-2.645833 h 3.96875 l 1e-5,-2.645834"
+       id="path1057"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3">
+    <g
+       id="g6498"
+       transform="translate(-181.83331,-26.65166)"
+       style="fill:#1a1a1a">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:url(#linearGradient7394);fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="240.63773"
+         y="63.816925"
+         id="text7641"><tspan
+           sodipodi:role="line"
+           id="tspan7639"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:url(#linearGradient7394);fill-opacity:1;stroke-width:0.264583"
+           x="240.63773"
+           y="63.816925">SHIFT</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:url(#linearGradient7818);fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="242.5083"
+         y="67.046951"
+         id="text7641-1"><tspan
+           sodipodi:role="line"
+           id="tspan7639-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:url(#linearGradient7818);fill-opacity:1;stroke-width:0.264583"
+           x="242.5083"
+           y="67.046951">TAC</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:url(#linearGradient7925);fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="240.69508"
+         y="70.276978"
+         id="text7641-1-3"><tspan
+           sodipodi:role="line"
+           id="tspan7639-5-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:url(#linearGradient7925);fill-opacity:1;stroke-width:0.264583"
+           x="240.69508"
+           y="70.276978">TOE</tspan></text>
+    </g>
+    <g
+       id="g17897"
+       transform="matrix(0.83156791,0,0,0.83156791,-139.80878,-14.231177)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+         d="m 238.125,58.208333 h 3.96875"
+         id="path2559"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6)"
+         d="m 238.125,60.854167 h 5.29167"
+         id="path2559-6"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="g6498-2"
+         transform="translate(-1.9166402,5.098348)"
+         style="fill:#1a1a1a">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="240.04164"
+           y="51.787067"
+           id="text7641-7"><tspan
+             sodipodi:role="line"
+             id="tspan7639-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+             x="240.04164"
+             y="51.787067">SHIFT</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="244.01039"
+           y="54.432903"
+           id="text7641-1-9"><tspan
+             sodipodi:role="line"
+             id="tspan7639-5-3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+             x="244.01039"
+             y="54.432903">TAC</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:#fffeff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="245.33331"
+           y="57.078735"
+           id="text7641-1-3-6"><tspan
+             sodipodi:role="line"
+             id="tspan7639-5-6-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#fffeff;fill-opacity:1;stroke-width:0.264583"
+             x="245.33331"
+             y="57.078735">TOE</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64023px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-11.4234px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.220019"
+       x="42.597996"
+       y="39.508186"
+       id="text7641-7-7"
+       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001"><tspan
+         sodipodi:role="line"
+         id="tspan7639-0-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#ffffff;fill-opacity:1;stroke-width:0.220019"
+         x="42.597996"
+         y="39.508186">SHIFT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64023px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-11.4234px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.220019"
+       x="46.831242"
+       y="44.600189"
+       id="text7641-1-9-9"
+       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001"
+       inkscape:transform-center-x="-6.1803998"
+       inkscape:transform-center-y="-5.1778147"><tspan
+         sodipodi:role="line"
+         id="tspan7639-5-3-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#ffffff;fill-opacity:1;stroke-width:0.220019"
+         x="46.831242"
+         y="44.600189">TAC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64023px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-11.4234px;fill:#fffeff;fill-opacity:1;stroke:none;stroke-width:0.220019"
+       x="51.593678"
+       y="44.600189"
+       id="text7641-1-3-6-2"
+       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001"><tspan
+         sodipodi:role="line"
+         id="tspan7639-5-6-0-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#fffeff;fill-opacity:1;stroke-width:0.220019"
+         x="51.593678"
+         y="44.600189">TOE</tspan></text>
+  </g>
+</svg>
