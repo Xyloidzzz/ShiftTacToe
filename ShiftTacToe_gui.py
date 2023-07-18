@@ -238,7 +238,9 @@ if __name__ == '__main__':
             shift = int(values['shiftspin_el'])
             #just checking that combo box has a value
             initshift = values['shiftinit_el'] if type(values['shiftinit_el']) is int else 0
-            window['shiftinit_el'].update(values = [i for i in range(shift+1)], value = initshift)
+            ninit = initshift if initshift <= shift else shift
+            window['shiftinit_el'].update(values = [i for i in range(shift+1)], value = ninit)
+            
             #values['shiftinit_el']=0
             b  = stt.ShiftTacToeE(int(rows),int(cols),int(shift), initshift)
             refresh = True

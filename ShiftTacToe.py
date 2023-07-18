@@ -16,8 +16,8 @@
 class ShiftTacToeA:
     
     def __init__(self, r=6, c=7, s=2, ist=0):
-        if ist <=s:
-            self.Set(r,c,s,ist)
+        ist = ist if ist <= s else s
+        self.Set(r,c,s,ist)
     
     #rows, cols are playable area
     #shift is how much it can shift outside the playable area (standard is 2)
@@ -28,6 +28,9 @@ class ShiftTacToeA:
         self.ROWS = rows
         self.COLS = cols
         self.SHIFT = shift
+        #for badly set initial shifts
+        if initshift > self.SHIFT:
+            initshift = self.SHFIFT
         
         #set up board memory
         self.BOARD = [[' ' for i in range(cols + shift)] for j in range(rows)]
@@ -146,8 +149,10 @@ class ShiftTacToeA:
 class ShiftTacToeE:
     
     def __init__(self, r=6, c=7, s=2, ist=0):
-        if ist <=s:
-            self.Set(r,c,s,ist)
+        #fix ist > s
+        ist = ist if ist <= s else s
+        self.Set(r,c,s,ist)
+
     
     #rows, cols are playable area
     #shift is how much it can shift outside the playable area (standard is 2)
@@ -158,6 +163,9 @@ class ShiftTacToeE:
         self.ROWS = rows
         self.COLS = cols
         self.SHIFT = shift
+        #for badly set initial shifts
+        if initshift > self.SHIFT:
+            initshift = self.SHFIFT
         
         #set up board memory
         self.BOARD = [[' ' for i in range(cols)] for j in range(rows)]
