@@ -54,7 +54,7 @@ boardopts = [
 
 initcolors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#00FFFF', '#FF00FF','#000000']
 pieceopts = [
-    [sg.Text('Color'), sg.Combo(default_value='#FF0000',values=initcolors, key='color_el',size=(10,1))],
+    [sg.Text('Color'), sg.Combo(default_value='#FF0000',values=initcolors,enable_events=True, key='color_el',size=(10,1))],
     #sg.Input('#FF0000', size=(7, 1), key='color_el')],
     [sg.Text('Size'), sg.Input(tilesize, size=(3, 1), key='size_el')],
      [sg.Graph(canvas_size=(tilesize,tilesize), graph_top_right=(tilesize,0), graph_bottom_left=(0,tilesize), background_color='#FF0000',  key='colorg_el')],
@@ -244,7 +244,9 @@ if __name__ == '__main__':
             #values['shiftinit_el']=0
             b  = stt.ShiftTacToeE(int(rows),int(cols),int(shift), initshift)
             refresh = True
-        
+        elif event == 'color_el':
+            window['colorg_el'].update(background_color = values['color_el'])
+            
         window.refresh()            
                 
     window.close()         
