@@ -34,7 +34,7 @@ if __name__ == '__main__':
         shift = input('Shift:')
         inshift = input('Initial Shift:')
         
-        b  = stt.ShiftTacToeE(int(rows),int(cols),int(shift), int(inshift))
+        b  = stt.ShiftTacToe(int(rows),int(cols),int(shift), int(inshift))
 
     run = True
     while(run):

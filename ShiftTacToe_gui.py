@@ -5,6 +5,7 @@
 # Description: A gui interface to play the game built with pysimplegui. On
 #   the back end it uses tkinter, so it's a little janky. The code is not
 #   clean at all, It's functional though.
+#   Has a game mode allowing any number of players.
 ###########################################################################
 
 
@@ -20,7 +21,7 @@ rows = 6
 cols = 7
 shift = 2
 initshift = 1
-b  = stt.ShiftTacToeE(int(rows),int(cols),int(shift),int(initshift))
+b  = stt.ShiftTacToe(int(rows),int(cols),int(shift),int(initshift))
 
 #drawing constants used
 tilesize = 70
@@ -144,7 +145,7 @@ if __name__ == '__main__':
             break
         #about
         elif event == 'About...':
-            layoutf = [[sg.Text("Shift-Tac-Toe Simulator \nTim Wylie \nVersion 0.5, 2023")], [sg.Button("Ok")]]
+            layoutf = [[sg.Text("Shift-Tac-Toe Simulator \nTim Wylie \nVersion 0.6, 2023")], [sg.Button("Ok")]]
             window1 = sg.Window("About", layoutf, modal=True)
             while True:
                 event, values = window1.read()
@@ -260,7 +261,7 @@ if __name__ == '__main__':
             window['shiftinit_el'].update(values = [i for i in range(shift+1)], value = ninit)
             
             #values['shiftinit_el']=0
-            b  = stt.ShiftTacToeE(int(rows),int(cols),int(shift), initshift)
+            b  = stt.ShiftTacToe(int(rows),int(cols),int(shift), initshift)
             refresh = True
         elif event == 'color_el':
             window['colorg_el'].update(background_color = values['color_el'])
