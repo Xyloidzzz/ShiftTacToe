@@ -13,7 +13,7 @@ import ShiftTacToe as stt
 import pickle
 import PySimpleGUI as sg
 from pathlib import Path
-
+import random
 
 #default to shift-tac-toe as connect-4 with shifts
 rows = 6
@@ -28,12 +28,15 @@ gridsize = 12
 
 sg.theme('Dark Grey 15')
 
-
-
+#game mode just auto changes colors between k people
+playinggame = False
+gamemode=False
+numplayers = 2 #1 based
+currplayer = 1 #1 based
 #################### layout #############################
 
-menu = [['&File', ['&Open', '&Save', '---', 'E&xit']],   
-        #['&Options', ['something','Set', '---', 'Power', 'Step', 'Run']],
+menu = [['&File', ['&Open', '&Save', '---', 'Game Mode', '---' ,'E&xit']],   
+        #['&Game', ['Game Mode','Set']],
         ['&Help', ['Options', '&About...']],]
 
 
@@ -52,13 +55,20 @@ boardopts = [
 [sg.Text('Initial Shift'), sg.Combo(default_value=initshift, values = [i for i in range(shift+1)], key='shiftinit_el', readonly=True)],
 ]
 
-initcolors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#00FFFF', '#FF00FF','#000000']
+initcolors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#00FFFF', '#FF00FF','#000000','#777777']
+
 pieceopts = [
     [sg.Text('Color'), sg.Combo(default_value='#FF0000',values=initcolors,enable_events=True, key='color_el',size=(10,1))],
     #sg.Input('#FF0000', size=(7, 1), key='color_el')],
     [sg.Text('Size'), sg.Input(tilesize, size=(3, 1), key='size_el')],
-     [sg.Graph(canvas_size=(tilesize,tilesize), graph_top_right=(tilesize,0), graph_bottom_left=(0,tilesize), background_color='#FF0000',  key='colorg_el')],
+     [sg.Graph(canvas_size=(50,50), graph_top_right=(tilesize,0), graph_bottom_left=(0,tilesize), background_color='#FF0000',  key='colorg_el')],
      [sg.Text('Grid'), sg.Input(gridsize, size=(3, 1), key='grid_el')]
+]
+
+gameopts = [
+    [sg.Text('Players'), sg.Input(2, size=(3, 1), key='numplays_el')],
+    #[sg.Text('Colors'), sg.Combo(default_value='#FF0000',values=['#FF0000','#0000FF'],enable_events=True, key='player_cols',size=(10,1))],
+    #sg.Input('#FF0000', size=(7, 1), key='color_el')],
 ]
 
 #options side pain
@@ -67,6 +77,8 @@ side_pane = [
     [sg.Button('Update', key='update_btn')],
     [sg.Frame('Tile Options', pieceopts, expand_x = True)],
     [sg.Button('Change', key='change_btn')],
+    [sg.Frame('Game Options', gameopts, expand_x = True, visible = False, key='game_frm')],
+    [sg.Button('Start', key='game_btn', visible = False)],
 ]
 
 
@@ -201,19 +213,25 @@ if __name__ == '__main__':
             if x < shift*tilesize:
                 #determine row
                 r = y/tilesize  #integer division
-                b.Shift(int(r),1)
-                refresh = True
+                if b.Shift(int(r),1):
+                    refresh = True
             elif x > tilesize*(cols + shift*2) - shift*tilesize:
                 r = y/tilesize
-                b.Shift(int(r),-1)
-                refresh = True
+                if b.Shift(int(r),-1):
+                    refresh = True
             else:
                 #add event
                 if x > shift*tilesize and x < cols*tilesize + shift*tilesize:
                     #determine col
                     c = (x - shift*tilesize)/tilesize #int div
-                    b.Add(int(c),values['color_el'])
-                    refresh = True
+                    if b.Add(int(c),values['color_el']):
+                        refresh = True
+            if playinggame and refresh:
+                currplayer = currplayer + 1 if currplayer + 1 <= numplayers else 1
+                window['color_el'].update(values = initcolors[:int(numplayers)], value=initcolors[currplayer-1])
+                window['colorg_el'].update(background_color = initcolors[currplayer-1])
+                
+                
         #the change options button
         elif event == 'change_btn':
             if int(values['size_el']) != tilesize:
@@ -247,6 +265,55 @@ if __name__ == '__main__':
         elif event == 'color_el':
             window['colorg_el'].update(background_color = values['color_el'])
             
+        elif event == 'numplays_el':
+            pass
+        elif event == 'game_btn':
+            #reset game
+            if playinggame == False:
+                playinggame = True
+                #set colors
+                numplayers = int(values['numplays_el'])
+                
+                #handle more than 8 players
+                if numplayers > len(initcolors):
+                    r = lambda: random.randint(0,255)
+                    for i in range(8, numplayers):
+                        color = '#{:02x}{:02x}{:02x}'.format(r(), r(), r())
+                        initcolors.append(color)
+                
+                currplayer = 1
+                window['color_el'].update(values = initcolors[:int(numplayers)], value=initcolors[currplayer-1])
+                window['colorg_el'].update(background_color = '#FF0000')
+                #button text
+                window['game_btn'].update(text='Stop')
+                window['update_btn'].update(disabled=True)
+                window['change_btn'].update(disabled=True)
+            else:
+                playinggame = False
+                #button text
+                window['game_btn'].update(text='Start')
+                window['update_btn'].update(disabled=False)
+                window['change_btn'].update(disabled=False)
+                
+            refresh=True
+             
+        elif event == 'Game Mode':
+            if gamemode == True:
+                gamemode = False
+                playinggame = False
+                window['game_btn'].update(visible = False)
+                window['game_frm'].update(visible = False)
+                window['color_el'].update(values = initcolors, value=initcolors[0])
+                window['colorg_el'].update(background_color = values['color_el'])
+                window['color_el'].update(disabled=False)
+            else:
+                gamemode = True
+                playinggame = False
+                window['game_btn'].update(visible = True)
+                window['game_frm'].update(visible = True)
+                window['color_el'].update(disabled=True)
+            refresh=True    
+                
         window.refresh()            
                 
     window.close()         
