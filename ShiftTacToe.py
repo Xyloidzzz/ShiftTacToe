@@ -5,11 +5,10 @@
 # Description: A class that implements a shift-tac-toe game that can have
 #   any number of rows, columns, or extra columns (shift). There are two
 #   versions that differ in the data structure used. 
-#   - ShiftTacToeA stores the rows as the entire slidable piece, so it has 
-#       size r x (c + s).
-#   - ShiftTacToeE only stores r x c, which also eliminates some annoying
-#       math. The better one to use.
-#   Both have a ToString method to easily use the objects in a cmd line.
+#   
+#   - ShiftTacToe only stores r x c, which also eliminates some annoying
+#       math. 
+#   Has a ToString method to easily use the objects in a cmd line.
 ###########################################################################
 
 
