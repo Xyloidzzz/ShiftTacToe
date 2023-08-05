@@ -166,13 +166,14 @@ if __name__ == '__main__':
                     filename = values['-IN1-']
                     if Path(filename).is_file():
                         try:
-                            with open(filename, "rt") as pf:
+                            with open(filename, "rb") as pf:
                                 data = pickle.load(pf)
                                 b = data['board']
                                 rows = data['rows']
                                 cols = data['cols']
                                 shift = data['shift']
                                 pf.close()
+                                refresh=True
                                 #window['c'].update(text)
                         except Exception as e:
                             print("Error: ", e)
