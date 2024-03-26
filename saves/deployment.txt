@@ -1,0 +1,6 @@
+ 
+Can easily build a deployable application with pyinstaller
+
+>pyinstaller ShiftTacToe_gui.py --windowed
+
+but you have to build it separately for each OS.

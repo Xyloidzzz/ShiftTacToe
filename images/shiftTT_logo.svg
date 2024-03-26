@@ -23,14 +23,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
-     showgrid="true"
-     inkscape:zoom="2.3589787"
-     inkscape:cx="222.34198"
-     inkscape:cy="262.18973"
+     showgrid="false"
+     inkscape:zoom="4.7179574"
+     inkscape:cx="172.53229"
+     inkscape:cy="261.97778"
      inkscape:window-width="1307"
      inkscape:window-height="961"
-     inkscape:window-x="483"
-     inkscape:window-y="61"
+     inkscape:window-x="1993"
+     inkscape:window-y="64"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      inkscape:snap-global="true"
@@ -276,6 +276,48 @@
        y1="69.022015"
        x2="246.97466"
        y2="69.022018" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-3-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path23248-6-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-75-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path23248-2-3-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-75-2-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path23248-2-3-8-5" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -300,7 +342,7 @@
        y="57.414585"
        width="10.847918"
        ry="1.0847893"
-       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
        inkscape:export-xdpi="300.01001"
        inkscape:export-ydpi="300.01001" />
     <ellipse
@@ -310,7 +352,7 @@
        cy="62.838543"
        rx="4.51932"
        ry="4.5193191"
-       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
        inkscape:export-xdpi="300.01001"
        inkscape:export-ydpi="300.01001" />
     <path
@@ -318,7 +360,7 @@
        d="m 62.43771,60.441257 0.002,0.375569 4.08956,7.445472 0.23187,0.0063 0.69579,-0.0022 5.82893,-1.94298 0.0108,-0.279123 -0.007,-1.06562 -3.42632,-7.560862 -0.39155,-0.01084 -1.4334,0.0069 -5.60409,2.802047 z"
        id="path7082"
        sodipodi:nodetypes="ccccccccccccc"
-       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
        inkscape:export-xdpi="300.01001"
        inkscape:export-ydpi="300.01001" />
     <g
@@ -375,7 +417,7 @@
     </g>
     <g
        id="g4790"
-       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
        inkscape:export-xdpi="300.01001"
        inkscape:export-ydpi="300.01001"
        transform="translate(-178.59375,-9.2604171)">
@@ -399,7 +441,7 @@
     <g
        id="g4785"
        transform="translate(-180.40696,-9.6264424)"
-       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
        inkscape:export-xdpi="300.01001"
        inkscape:export-ydpi="300.01001">
       <text
@@ -422,7 +464,7 @@
     <g
        id="g4780"
        transform="translate(-187.2649,-4.0043521)"
-       inkscape:export-filename="/home/savage/Dropbox/SummerGames/ShiftTT/stt_logo.png"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
        inkscape:export-xdpi="300.01001"
        inkscape:export-ydpi="300.01001">
       <text
@@ -440,6 +482,104 @@
          style="fill:none;stroke:#ffffff;stroke-width:0.220365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-75-2)"
          d="m 253.47083,70.150185 h 4.40039"
          id="path2559-6-9-9"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       style="fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.216958;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-6-1-6-2-7-3-7-6"
+       height="10.847916"
+       x="42.597916"
+       y="67.997917"
+       width="10.848"
+       ry="1.0847893"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001" />
+    <ellipse
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.330276;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path7692-2"
+       cx="48.021881"
+       cy="73.421875"
+       rx="4.51932"
+       ry="4.5193191"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 42.593961,71.024591 0.002,0.375569 4.08956,7.445472 0.23187,0.0063 0.69579,-0.0022 5.82893,-1.94298 0.0108,-0.279123 -0.007,-1.06562 -3.42632,-7.560862 -0.39155,-0.01084 -1.4334,0.0069 -5.60409,2.802047 z"
+       id="path7082-9"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001" />
+    <g
+       id="g4790-1"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001"
+       transform="translate(-198.4375,1.3229169)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="242.869"
+         y="70.85331"
+         id="text7641-2-2"><tspan
+           sodipodi:role="line"
+           id="tspan7639-02-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#1a1a1a;fill-opacity:1;stroke-width:0.264583"
+           x="242.869"
+           y="70.85331">SHIFT</tspan></text>
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.220365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-3-3)"
+         d="m 242.94497,69.90065 h 4.68761"
+         id="path2559-62-0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g4785-9"
+       transform="translate(-200.25071,0.9568916)"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="244.73958"
+         y="74.083336"
+         id="text7641-1-37-3"><tspan
+           sodipodi:role="line"
+           id="tspan7639-5-5-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#1a1a1a;fill-opacity:1;stroke-width:0.264583"
+           x="244.73958"
+           y="74.083336">TAC</tspan></text>
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:0.220365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-75-7)"
+         d="m 249.93372,73.126442 h -4.40038"
+         id="path2559-6-9-0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g4780-6"
+       transform="translate(-207.10865,6.5789819)"
+       inkscape:export-filename="/home/wylie/Documents/Notes/Programs/ShiftTacToe/stt_logo_lg.png"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:-13.7372px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="254.10744"
+         y="71.102844"
+         id="text7641-1-3-9-2"><tspan
+           sodipodi:role="line"
+           id="tspan7639-5-6-2-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#1a1a1a;fill-opacity:1;stroke-width:0.264583"
+           x="254.10744"
+           y="71.102844">TOE</tspan></text>
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:0.220365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-75-2-3)"
+         d="m 253.47083,70.150185 h 4.40039"
+         id="path2559-6-9-9-1"
          sodipodi:nodetypes="cc" />
     </g>
   </g>
