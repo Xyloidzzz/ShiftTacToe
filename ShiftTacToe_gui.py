@@ -34,7 +34,7 @@ playinggame = False
 gamemode=False
 numplayers = 2 #1 based
 currplayer = 1 #1 based
-#################### layout #############################
+############################# layout #############################
 
 menu = [['&File', ['&Open', '&Save', '---', 'Game Mode', '---' ,'E&xit']],   
         #['&Game', ['Game Mode','Set']],
@@ -92,7 +92,7 @@ sg.Column(side_pane,vertical_alignment='top', expand_y=True, expand_x=True, key=
 
 ]
 
-#################### main #############################
+############################# main #############################
 
 if __name__ == '__main__':
     #print('Welcome to Shift-Tac-Toe')
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     #main event loop
     while True:
         
-        #################### draw board #############################
+        ############################# draw board #############################
         #drawing the board when needed
         if refresh:
             window['graph_el'].erase()
@@ -136,7 +136,7 @@ if __name__ == '__main__':
             #b.ToString()
             refresh = False    
         
-        #################### handle events #############################
+        ############################# handle events #############################
         event, values = window.read()
         #event loop
         # End program if user closes window or
